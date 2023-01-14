@@ -1,0 +1,209 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav-title {
+    margin-top: 87px;
+    margin-left: 120px;
+}
+
+.nav-section ul {
+    display: flex;
+    margin-top: 95px;
+    margin-right: 120px;
+
+}
+
+.nav-section ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.header-writing {
+    width: 582px;
+    height: 270px;
+    margin-left: 120px;
+    margin-top: 145px;
+}
+
+.prebook-btn {
+    width: 200px;
+    height: 40px;
+    background: #E02C6D;
+    border-radius: 41px;
+    padding-bottom: 70px;
+    margin-top: 16px;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    border: none;
+}
+
+.header-pic {
+    background-image: url('images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.header {
+    display: flex;
+}
+
+hr {
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+}
+
+.brands {
+    width: 980px;
+    height: 110px;
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 165px;
+}
+
+.brand-logo img {
+    padding-left: 44px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 1047px;
+    height: 1662px;
+    margin-left: 150px;
+    margin-right: 40px;
+}
+
+.main-title {
+    margin-top: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.items {
+    width: 329px;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.484);
+}
+
+.items img {
+    width: 300px;
+    height: 256px;
+}
+
+.star-holder {
+    display: flex;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+.items img,
+h2,
+p,
+.star-holder {}
+
+.see-more {
+    max-width: 1200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: end;
+}
+
+.see-more a {
+    color: #E02C6D;
+    text-decoration: none;
+}
+
+.main-last {
+    display: flex;
+    width: 1170px;
+    height: 270px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 100px;
+}
+
+.gear img {
+    margin-right: 70px;
+}
+
+.last-part {
+    width: 610px;
+}
+
+.last-description {
+    color: #6C6C6C;
+}
+
+.join-me-btn-div {
+    margin-top: 20px;
+    width: 155px;
+    height: 44px;
+}
+
+.join-now-btn {
+    background: #E02C6D;
+    color: white;
+    padding: 15px;
+    width: 200px;
+    border: none;
+}
+
+.footer {
+    background: #0A0826;
+    width: 100%;
+    color: white;
+    height: 250px;
+}
+
+.last-footer {
+    width: 262px;
+    height: 140px;
+    margin-left: 550px;
+    padding-top: 40px;
+}
+
+.fa-brands {
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+}
+
+@media screen and (max-width:577px) {
+    .navigation {
+        display: flex;
+
+    }
+
+    .nav-section {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .header-pic img{
+        width: 257px;
+        height: 257px;
+    }
+
+}
